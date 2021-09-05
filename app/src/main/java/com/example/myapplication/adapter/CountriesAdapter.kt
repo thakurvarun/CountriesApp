@@ -1,6 +1,6 @@
 package com.example.myapplication.adapter
 
-import android.util.Log
+
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -26,12 +26,7 @@ class CountriesAdapter(modelObjectArrayList: ArrayList<Country>?) : RecyclerView
         val modelObject: Country = countryList!![position]
         holder.countryRowBinding.tvCountry.text = modelObject.name
         holder.countryRowBinding.tvDescription.text = modelObject.description
-        holder.countryRowBinding.tvDescription.setOnClickListener { view ->
-            Log.i(
-                "LOG_TAG",
-                "Full Name: " + modelObject.name
-            )
-        }    }
+    }
 
 
     override fun getItemCount(): Int {
