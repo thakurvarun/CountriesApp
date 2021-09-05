@@ -201,5 +201,17 @@
   
 
 
+App Supports Both Portrait and Landscape Modes :
+
+
+
+![c91bcfe2-16ee-4cdd-b6fa-3eb810ebb4a6](https://user-images.githubusercontent.com/25679640/132139749-633f9f54-3a0f-4621-956a-d3336c03dca3.jpeg)
+
+
+![1cae6f09-6d2a-4135-989a-1764057ee6f9](https://user-images.githubusercontent.com/25679640/132139764-8fca7e9a-e891-4d41-bc63-dec171ac3fb7.jpeg)
+
+
+
+
 
 
