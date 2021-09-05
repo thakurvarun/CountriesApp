@@ -1,0 +1,26 @@
+{
+
+  "countries" : [
+    {
+      "name": "India",
+      "description": "You stand on Indian soil"
+
+    },
+    {
+      "name": "USA",
+      "description": "You are in North America."
+    },
+    {
+      "name": "Australia",
+      "description": "Welcome to mainland Australia."
+    },
+    {
+      "name": "Egypt",
+      "description": "I hope you have seen the Pyramids."
+    },
+    {
+      "name": "England",
+      "description": "Give us our Kohinoor back."
+    }
+  ]
+}
