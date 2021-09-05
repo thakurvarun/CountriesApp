@@ -1,38 +1,27 @@
-package com.example.myapplication.ViewModel
+package com.example.myapplication.viewmodel
 
 import androidx.lifecycle.MutableLiveData
-
 import androidx.lifecycle.ViewModel
 import com.example.myapplication.model.countries.Country
 
-
+/**
+ * @author : Varun Thakur
+ * CountriesViewModel : A view model class to store the data used for displaying in the list.
+ *
+ */
 class CountriesViewModel : ViewModel() {
     var countriesLiveData: MutableLiveData<ArrayList<Country>?>
     var countryArrayList: ArrayList<Country>? = null
     val userMutableLiveData: MutableLiveData<ArrayList<Country>?> get() = countriesLiveData
 
     fun init() {
-//        populateList()
         countriesLiveData.value = countryArrayList
     }
 
-//    fun populateList() {
-//        val country = Country()
-//        user.setTitle("Darknight")
-//        user.setDescription("Best rating movie")
-//        userArrayList = ArrayList()
-//        userArrayList!!.add(user)
-//        userArrayList!!.add(user)
-//        userArrayList!!.add(user)
-//        userArrayList!!.add(user)
-//        userArrayList!!.add(user)
-//        userArrayList!!.add(user)
-//    }
 
     init {
         countriesLiveData = MutableLiveData<ArrayList<Country>?>()
-
-        // call your Rest API in init method
+        // Good to fire the network calls from init()
         init()
     }
 }

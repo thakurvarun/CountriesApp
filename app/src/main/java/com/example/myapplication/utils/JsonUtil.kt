@@ -1,16 +1,19 @@
 package com.example.myapplication.utils
-import android.app.Activity
+
 import android.content.Context
-import android.view.View
-import android.view.inputmethod.InputMethodManager
-import androidx.fragment.app.Fragment
 import java.io.IOException
+
+/**
+ * @author : Varun Thakur.
+ */
 
 object JsonUtil {
 
 
     /**
      * The function is used to Read the Json from the embedded Json File.
+     * @param context - Activity Context
+     * @param fileName - a json file from the assets folder.
      */
     fun getJsonDataFromAsset(context: Context, fileName: String): String? {
         val jsonString: String

@@ -3,7 +3,7 @@
   "countries" : [
     {
       "name": "India",
-      "description": "You stand on Indian soil"
+      "description": "You stand on Indian soil."
 
     },
     {
@@ -20,7 +20,7 @@
     },
     {
       "name": "England",
-      "description": "Give us our Kohinoor back."
+      "description": "India shall beat England in the test series."
     }
   ]
 }

@@ -8,7 +8,15 @@ import com.example.myapplication.databinding.ItemRowCountriesBinding
 import com.example.myapplication.model.countries.Country
 import java.util.*
 
+/**
+ * @author Varun Thakur : thakur.thakurvarun@gmail.com
+ *
+ */
 
+
+/**
+ * CountriesAdapter :  A RecyclerView Adapter for binding the listing of the countries.
+ */
 class CountriesAdapter(modelObjectArrayList: ArrayList<Country>?) : RecyclerView.Adapter<CountriesAdapter.ViewHolder>() {
     private var countryList: ArrayList<Country> ?= null
 
